@@ -31,7 +31,24 @@ The analysis of the election shows that:
  - Diana DeGette who received 73.8% of the votes and 272,892 votes 
 
 ## Challenge Overview
+The election commission has requested some additional data to complete the audit:
+- The voter turnout for each county
+- The percentage of votes from each county out of the total count
+- The county with the highest turnout
 
 ## Challenge Summary
+<img width="391" alt="Screen Shot 2022-04-17 at 2 45 59 PM" src="https://user-images.githubusercontent.com/95447175/163733462-4d83c15f-a5ae-4179-8191-e284a84a5f24.png">
+
+- Denver had the largest County turnout with 82.8% of the votes and 306,055 votes
+- Jefferson county had 10.5% of the votes with 38,855 votes
+- Arapahoe country had 6.7% of the votes with 24,801 votes
+
+## Election Audit Suggestions
+This script can be used for any election due to its use of macros; the file election_results.csv needs to be in the same place for access. The election_analysis.txt file should also be in the same location. 
+If the name or location of the csv file is modified, then line 7 of PyPoll_Challenge.py must be updated to reflect the updates.
+file_to_load = os.path.join("Resources", "election_results.csv")
+If the name or location of the txt file is changed, then line 9 of PyPoll_Challenge.py needs to be modified. 
+file_to_save = os.path.join("analysis", "election_analysis.txt")
+
 
 
