@@ -45,10 +45,10 @@ The election commission has requested some additional data to complete the audit
 
 ## Election Audit Suggestions
 This script can be used for any election due to its use of macros; the file election_results.csv needs to be in the same place for access. The election_analysis.txt file should also be in the same location. 
-If the name or location of the csv file is modified, then line 7 of PyPoll_Challenge.py must be updated to reflect the updates.
-file_to_load = os.path.join("Resources", "election_results.csv")
-If the name or location of the txt file is changed, then line 9 of PyPoll_Challenge.py needs to be modified. 
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+- If the name or location of the csv file is modified, then line 7 of PyPoll_Challenge.py must be updated to reflect the updates.
+ - file_to_load = os.path.join("Resources", "election_results.csv")
+- If the name or location of the txt file is changed, then line 9 of PyPoll_Challenge.py needs to be modified. 
+ - file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 
 
