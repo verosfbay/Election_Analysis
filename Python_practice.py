@@ -124,3 +124,18 @@ for county, voters in counties_dict.items():
 
 #Skill Drill
 voting_data = [``{"county":"Arapahoe", "registered_voters": 422829}, {"county":"Denver", "registered_voters": 463353}, {"county":"Jefferson", "registered_voters": 432438}]
+
+
+
+dir({'Arapahoe': 422829, 'Denver': 463353, 'Jefferson': 432438})
+
+#The data we need to retrieve. 
+# Import the datetime class from the datetime module.
+import datetime
+from http.client import ImproperConnectionState
+
+# Use the now() attribute on the datetime class to get the present time.
+now = datetime.datetime.now()
+
+# Print the present time.
+print("The time right now is ", now)
